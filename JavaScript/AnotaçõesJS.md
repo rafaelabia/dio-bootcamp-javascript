@@ -15,3 +15,24 @@ Igual:
 
 Negação:
 !variavel - inclui o exclamação na frente.
+
+#Aula 3 - 
+&& = e
+|| = ou
+
+potência: Math.pow(5,7)
+
+Obs: É comum na programação convertermos algum conceito humano para algo minimalista, como uma lista enumerada em vez da descrição dos tipos. O contrário também acontece.
+
+#Aula 4 -
+Os nomes das funções geralmente são escritas com o nome no modo imperativo: ex: escrevaMeuNome
+Exemplo de função com cálculo de percentual:
+function incrementarJuros (valor, percentualJuros) { 
+  const valorDeAcrecimo = (percentualJuros / 100) * valor;
+  return valor + valorDeAcrecimo;
+  }
+
+console.log(incrementarJuros (100, 10));
+
+Obs: No JavaScrip as funções são utilizadas como objetos, assim como utilizamos números e textos.
+
