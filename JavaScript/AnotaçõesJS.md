@@ -36,3 +36,13 @@ console.log(incrementarJuros (100, 10));
 
 Obs: No JavaScrip as funções são utilizadas como objetos, assim como utilizamos números e textos.
 
+Outros exemplos de funções:
+function aplicarDesconto(valorProduto, porcentagem) {
+  return valorProduto-(valorProduto*(porcentagem/100));
+}
+
+function aplicarJuros(valorProduto, juros) {
+  return valorProduto+(valorProduto*(juros/100));
+}
+
+o objeto no javaScript é uma coleção dinâmica de chave e valor, podendo adicionar e remover
