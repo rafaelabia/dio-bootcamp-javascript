@@ -36,5 +36,5 @@ class Pessoa {
 
 const jose = new Pessoa ('José',70,1.75);
 console.log(jose.classificarImc());
-const noemi = new Pessoa ('Noemi',63,1.64);
+const noemi = new Pessoa ('Noemi',73,1.64);
 console.log(noemi.classificarImc());
